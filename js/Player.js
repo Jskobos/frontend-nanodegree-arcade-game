@@ -8,7 +8,7 @@
   };
 
   Player.prototype.update = function() {
-    if (this.onWater()) { this.resetPlayer(); }
+    if (this.onWater(this.x,this.y)) { this.resetPlayer(); }
   };
   Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);

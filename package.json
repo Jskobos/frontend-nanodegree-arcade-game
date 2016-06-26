@@ -1,0 +1,33 @@
+{
+  "name": "frogger",
+  "version": "1.0.0",
+  "description": "Implementation of the Frogger game project from the Udacity Front-end Nanodegree program",
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jskobos/frontend-nanodegree-arcade-game.git"
+  },
+  "author": "Jared Kobos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jskobos/frontend-nanodegree-arcade-game/issues"
+  },
+  "homepage": "https://github.com/Jskobos/frontend-nanodegree-arcade-game#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "jasmine": "^2.4.1",
+    "karma": "^1.0.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-safari-launcher": "^1.0.0",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
